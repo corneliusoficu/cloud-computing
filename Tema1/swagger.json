@@ -1,0 +1,56 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Music Events API",
+    "description": "API providing a list of events from top musicians by genre in the specified location."
+  },
+  "schemes": [
+    "https"
+  ],
+  "host": "localhost:3000",
+  "basePath": "/tickets/:location/:genre",
+  "paths": {
+    "/tickets/:location/:genre": {
+      "get": {
+        "summary": "Gets events",
+        "description": "Returns a list containing events at location",
+        "responses": {
+          "200": {
+            "description": "A list of Events",
+            "schema": {
+              "type": "array",
+              "items": {
+                "properties": {
+                  "artist": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "date": {
+                    "type": "string",
+                    "format": "YYYY-mm-dd"
+                  },
+                  "hour": {
+                    "type": "string",
+                    "format": "HH-MM-SS"
+                  },
+                  "venue": {
+                    "type": "string"
+                  },
+                  "city": {
+                    "type": "string"
+                  },
+                  "country": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
