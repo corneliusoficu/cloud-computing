@@ -11,10 +11,16 @@ var server = http.createServer(function(req,  res){
     logger.log('info', '-----------------------------------------------------------------------------');
     logger.log('info', 'Server received new request');
 
-    var responseContent = routeHandler.handleRequest(req);
+    var body = [];
 
-    res.write(responseContent);
-    res.end();
+    req.on('error', function(err){
+        logger.log('error', 'Error receiving request!');
+    }).on('data', function(chunk){
+        body.push(chunk);
+    }).on('end', function(){
+        req.body = Buffer.concat(body).toString();
+        routeHandler.handleRequest(req, res);
+    });
 
 }).listen(PORT);
 
