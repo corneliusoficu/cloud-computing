@@ -1,0 +1,15 @@
+{
+  "name": "tema-2",
+  "version": "1.0.0",
+  "description": "A project offering an API in raw NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^2.4.1"
+  }
+}
