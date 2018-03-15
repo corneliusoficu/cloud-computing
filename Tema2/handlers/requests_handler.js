@@ -9,7 +9,6 @@ exports.handleRequest = function(request, response) {
 
     logger.log('info', "Handling new request for URL: " + request.url + " and method: " + request.method);
 
-    loop1:
     for(index = 0; index < handlers.length; index++){
         for(indexRes = 0; indexRes < handlers[index].length; indexRes++){
 
