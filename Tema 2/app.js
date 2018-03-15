@@ -1,8 +1,12 @@
 const http         = require('http');
-const logger=require('./config/log.js');
+var mongoose       = require('mongoose');
+const logger       =require('./config/log.js');
 const routeHandler = require('./handlers/requests_handler');
 
+
 const PORT = 8080;
+
+mongoose.connect('mongodb://localhost/cloudcomputing');
 
 logger.log('info', 'Starting web server at port: ' + PORT);
 

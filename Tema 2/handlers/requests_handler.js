@@ -5,8 +5,6 @@ var dogs      = require('./dogs_handler');
 
 var handlers = [dogs, not_found];
 
-var notFoundHandler = not_found;
-
 exports.handleRequest = function(request, response) {
 
     logger.log('info', "Handling new request for URL: " + request.url + " and method: " + request.method);
@@ -32,12 +30,13 @@ exports.handleRequest = function(request, response) {
                 }
 
 
-
                 resource.ENDPOINT(request, response, variables);
 
-                break loop1;
+                return;
             }
         }
     }
+
+    not_found[0].ENDPOINT(request, response);
 };
 
