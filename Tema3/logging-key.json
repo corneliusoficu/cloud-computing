@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tema3-cloud-200115",
+  "private_key_id": "a53714da87c41daa5ecd6499ce0a356f9872aea9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0jHqTm+q3qK5g\nLC9ZD3XkYkvwKVouji8H4+nqllE6MYg84c/bQmAiSQ6rGFl41mhHTEji1ZHtZhzl\nXKrNrdBZt/59tj5HCyhzBoXSPkoANCbbNdbzk8Vyg2JqbIgEIB5v6dWDafsHxazg\nCMGslvZY5ctUqKS1DI2EOtoiiz+zbQSd1pzEzZHL/2hfl+EeInIiH3567z0XKedP\nQwt092A1zw5OOEz83xiG6BSs8//mk5ptCt/w9jQMMOCE0fE8RtwRotp/4G0Ji9jy\naLqRLGD0AR5OJfzd2Fvc0P+nLk8WG+OL5CsnlCXBwYjfTyMEbN+U3HGYgFJhGFTz\nQs80S27tAgMBAAECggEABxX7VTyO3/HiFBqv1LGPZCz6bidv/LiY/m4ytuxQLaCW\nMvjUI6Fi11L23SlUZkfDPxxuljPLvsgy6p/c1pEo2+3lckbF13EdP4nE6e0xZ3l5\n1pZx7vcrTjT7VrzB3X2VjDleZ0JbIeE0yXR2hhZE/qoCyqS1as3zu485Z+vUo8Sa\nvy1qgmWX1pW7AKynqlTxZ2DjCoVMSzfaG6QkuNOl4bniw+2RPkBGRb81b33qtoVM\neaycS+LtShMi9ByEWBDaumIFNR7fqIfUOLfHMwPfCJvxBp4+GurQ3PgNoF/t70Y9\nXMWnmrB3BOwOFmWY5ojXVqd9XW0Xe4k5NdItiO3HsQKBgQD5XFZ/SK+bxbwrwPZU\nstu0pdJONEn9TJ8ytIyXtMZweogYrR9Ns+msQ/ocoxew+HkRhP4y6+mf2P9pjRi4\n6HjTe193Xw5Oq/YkHMgtHH5UO9k2P08HVxQBceJv4KpcDcr4KKGnvbn2kNfpyxoP\nsW/95k+MF8l7EVtdgDQei7JjvQKBgQC5Wxz/Z2NRiHdZRviBDI3jnXdF4hpSzuG6\nkYwoOhQvROz8KsO7iAJiZcRa/BlADFnz2JbCprjXBIu6PfQL/Ji7Eh7VhA+XnHba\nD/oOGCJ4ZXtfvtLn6Ha5ksszyrTrq/4lgQBFjezTU9+b/4+xai/+oyV5cjykxUVo\nA4Dh1R1S8QKBgQCMaGf0B9OJ3M9Vu7N4gbWghHZkvqCi1hAWFv/LNGlAUF5ttp2X\nvSRocWZV1aezaFWTfdU8iwXjkeZPYrl29L+EJUXeC1IdDkrsjqBQdmjTuVdXalJv\niaKkJaIg6NpENygAj7BmqTgbE/fflxM3nuu2hYZpFcPHXkCZ52RxhquN6QKBgDMR\n6J5yVQoc6I1foY6k7987/qXxk0EnoUgvXAelYPRZMFaWTdG4urdzxLMw7KAaBxrJ\nnVhKaXlM1lbdRQWcdlRsvLQlq8ohIRoZ9tK1UaIMi/6obCHbigK9cGF3w3t/qwmY\nToPbg9oCLQUlV+kREeI9/1BD6nOXqvTqqjMO7gJxAoGAfHMVHorhihaVa+q0xfMT\n6gKpryaP9Fs9F1b3G/ltuRo0cQ8I1YxkJ8kwyugwSDTF1ojcB35htcVzpW3F6SRl\nylVOKWBAqOz2njC/9ZxhkkEvMeRiS1H995ZiRjIa021gjc9+WPIHorCZc249Ja49\n2Ps6MdQHTqWYDoSLLKUiRi8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "stackdriver-logging@tema3-cloud-200115.iam.gserviceaccount.com",
+  "client_id": "115210156753602539510",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/stackdriver-logging%40tema3-cloud-200115.iam.gserviceaccount.com"
+}

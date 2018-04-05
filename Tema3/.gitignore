@@ -1,0 +1,4 @@
+node_modules/
+datastore-key.json
+storage-key.json
+stackdriver-key.json

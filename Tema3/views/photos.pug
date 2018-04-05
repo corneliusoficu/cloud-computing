@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    div(id = 'leftDiv')
+        form(action = "/pictures",method = "post", enctype = "multipart/form-data")
+            p Upload a photo and set its name
+            input(type = 'text',name = "name", id='uploadPhotoName')
+            input(type = 'file', name = "image", id='uploadPhotoFile')
+            br
+            button(id = "uploadPhotoBtn")  Upload Photo
+    div(id = 'rightDiv')
+        p Get a photo and display it based on its name
+        input(type = 'text',id='getPhotoName')
+        img(id = 'ceamaipoza')
+        br
+        button(id = "getPhotoBtn") Get Photo
