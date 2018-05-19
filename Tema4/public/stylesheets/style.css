@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+}
+
+a {
+  color: #00B7FF;
+}
+h2{
+  margin-bottom:30px;
+}
+.container{
+  width: 300px;
+  margin: 0 auto;
+  margin-top:50px;
+  
+}

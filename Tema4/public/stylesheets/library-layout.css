@@ -1,0 +1,16 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 150px;
+}
